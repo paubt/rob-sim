@@ -1,0 +1,13 @@
+[package]
+name = "rob-sim"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.15.1", features = ["dynamic_linking"] }
+#bevy = { version = "0.15.0" }
+# Stuff for the tiled map
+bevy_ecs_tiled = "0.5"
+bevy_ecs_tilemap = "0.15"
+# this is for debugging.
+bevy-inspector-egui = "0.29.1"
